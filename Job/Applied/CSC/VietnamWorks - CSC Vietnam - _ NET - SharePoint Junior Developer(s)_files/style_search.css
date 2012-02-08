@@ -1,0 +1,591 @@
+#jsContainer {
+	PADDING-TOP: 10px; _height: 1%
+}
+#jsContainer * {
+	LIST-STYLE-TYPE: none; MARGIN: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; LIST-STYLE-IMAGE: none
+}
+#jsContainer FIELDSET {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+#jsContainer INPUT {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 11px
+}
+#jsContainer SELECT {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 11px
+}
+.wrap_search {
+	MARGIN: auto; WIDTH: 980px; PADDING-TOP: 10px
+}
+#search_contentpage {
+	PADDING-TOP: 10px
+}
+.leftcol_search {
+	WIDTH: 230px; FLOAT: left
+}
+.rightcol_search {
+	WIDTH: 740px; FLOAT: right
+}
+.line_title {
+	BACKGROUND: url(http://images.vietnamworks.com/dot_line_cr.gif) repeat-x 50% bottom
+}
+.clear {
+	LINE-HEIGHT: 0; CLEAR: both
+}
+.link {
+	COLOR: #555555; TEXT-DECORATION: underline
+}
+.link:hover {
+	COLOR: #ff9900; TEXT-DECORATION: underline
+}
+.btn_search {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: none; WIDTH: 79px; BORDER-TOP-STYLE: none; BACKGROUND: url(http://images.vietnamworks.com/btn_search.gif); HEIGHT: 29px; COLOR: #fff; BORDER-LEFT-STYLE: none; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.btn_save {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: none; WIDTH: 127px; BORDER-TOP-STYLE: none; BACKGROUND: url(http://images.vietnamworks.com/btn_save.gif); HEIGHT: 29px; COLOR: #fff; BORDER-LEFT-STYLE: none; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.btn_searchbox {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 5px; BORDER-RIGHT-STYLE: none; WIDTH: 67px; BORDER-TOP-STYLE: none; BACKGROUND: url(http://images.vietnamworks.com/btn_searchbox.gif); HEIGHT: 29px; COLOR: #fff; BORDER-LEFT-STYLE: none; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.boxTitle02 {
+	PADDING-BOTTOM: 5px; TEXT-TRANSFORM: uppercase; MARGIN: 0px; PADDING-LEFT: 10px; WIDTH: 215px; PADDING-RIGHT: 5px; DISPLAY: block; BACKGROUND: #999; COLOR: #fff; FONT-SIZE: 11px; PADDING-TOP: 5px
+}
+.listType04 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.listType04 LI {
+	BORDER-BOTTOM: #e1e1e2 1px solid; PADDING-BOTTOM: 6px; MARGIN-TOP: 3px !important; PADDING-LEFT: 30px; PADDING-RIGHT: 5px; DISPLAY: block; BACKGROUND: #f4f4f4; BORDER-TOP: #e1e1e2 1px solid; PADDING-TOP: 5px
+}
+.listType04 LI.icon01 {
+	BACKGROUND: url(http://images.vietnamworks.com/ico_toolbox_jobdetail.gif) #f4f4f4 no-repeat 5px 3px
+}
+.listType04 LI.icon02 {
+	BACKGROUND: url(http://images.vietnamworks.com/ico_toolbox_jobdetail.gif) #f4f4f4 no-repeat 5px -54px
+}
+.listType04 LI.icon03 {
+	BACKGROUND: url(http://images.vietnamworks.com/ico_toolbox_jobdetail.gif) #f4f4f4 no-repeat 5px -113px
+}
+.listType04 LI.icon04 {
+	BACKGROUND: url(http://images.vietnamworks.com/ico_toolbox_jobdetail.gif) #f4f4f4 no-repeat 5px -171px
+}
+.listType04 LI.icon05 {
+	BACKGROUND: url(http://images.vietnamworks.com/ico_toolbox_jobdetail.gif) #f4f4f4 no-repeat 5px -229px
+}
+.listType04 LI.icon06 {
+	BACKGROUND: url(http://images.vietnamworks.com/ico_toolbox_jobdetail.gif) #f4f4f4 no-repeat 5px -287px
+}
+.listType04 LI.icon07 {
+	BACKGROUND: url(http://images.vietnamworks.com/ico_toolbox_jobdetail.gif) #f4f4f4 no-repeat 5px -346px
+}
+.listType04 LI.icon08 {
+	BACKGROUND: url(http://images.vietnamworks.com/ico_toolbox_jobdetail.gif) #f4f4f4 no-repeat 5px -403px
+}
+.listType04 LI.icon09 {
+	BACKGROUND: url(http://images.vietnamworks.com/ico_toolbox_jobdetail.gif) #f4f4f4 no-repeat 5px -460px
+}
+.listType04 LI.icon10 {
+	BACKGROUND: url(http://images.vietnamworks.com/ico_toolbox_jobdetail.gif) #f4f4f4 no-repeat 5px -529px
+}
+.listType04 A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.listType04 A:hover {
+	COLOR: #ff9900
+}
+.boxlist_title {
+	PADDING-BOTTOM: 5px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 3px; BACKGROUND: #a9aaad; COLOR: #ffffff; FONT-SIZE: 11px !important; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+UL.refine {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL.refine LI {
+	BORDER-BOTTOM: #e1e1e2 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 3px; BACKGROUND: url(http://images.vietnamworks.com/bul_menu.gif) #f4f4f4 no-repeat left top; BORDER-TOP: #e1e1e2 1px solid; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+UL.refine LI .all {
+	FONT-SIZE: 9px; FONT-WEIGHT: normal
+}
+UL.refine LI A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+UL.refine LI A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+UL.refinesub {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 3px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL.refinesub LI {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; BACKGROUND: url(http://images.vietnamworks.com/bullet_cat.gif) no-repeat left top; BORDER-TOP: medium none; FONT-WEIGHT: normal; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+UL.refinesub LI.more {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 0px
+}
+UL.refinesub LI.more A {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+UL.refinesub LI.more A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: underline
+}
+UL.refine DIV A {
+	COLOR: #ff9900; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+UL.refine DIV A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: underline
+}
+.formType01 {
+	LINE-HEIGHT: 16px; MARGIN: 0px; COLOR: #333
+}
+FIELDSET {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.labelType01 {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; WIDTH: 200px; PADDING-RIGHT: 10px; FLOAT: left; PADDING-TOP: 0px
+}
+.inputType01 {
+	BORDER-BOTTOM: #336666 1px solid; BORDER-LEFT: #336666 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 3px; WIDTH: 242px; PADDING-RIGHT: 3px; FLOAT: left; BORDER-TOP: #336666 1px solid; BORDER-RIGHT: #336666 1px solid; PADDING-TOP: 2px
+}
+.comboType01 {
+	BORDER-BOTTOM: #336666 1px solid; BORDER-LEFT: #336666 1px solid; WIDTH: 250px; FLOAT: left; BORDER-TOP: #336666 1px solid; BORDER-RIGHT: #336666 1px solid
+}
+.listType01 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 3px
+}
+.listType01 LI {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: left; PADDING-TOP: 0px
+}
+.listType01 LI * {
+	FLOAT: left
+}
+.listType01 LI LABEL {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 2px; WIDTH: 130px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.listType02 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.listType02 LI {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 15px; FLOAT: left; PADDING-TOP: 0px
+}
+.listType02 LI A {
+	COLOR: #555
+}
+.listType02 LI A:hover {
+	COLOR: #ff9900
+}
+.listType03 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; WIDTH: 350px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.listType03 LI {
+	FLOAT: left; MARGIN-RIGHT: 4px !important
+}
+.listType03 .language {
+	BORDER-BOTTOM: #336666 1px solid; BORDER-LEFT: #336666 1px solid; WIDTH: 123px; BORDER-TOP: #336666 1px solid; BORDER-RIGHT: #336666 1px solid
+}
+.listType03 .price {
+	BORDER-BOTTOM: #336666 1px solid; BORDER-LEFT: #336666 1px solid; WIDTH: 35px; BORDER-TOP: #336666 1px solid; BORDER-RIGHT: #336666 1px solid
+}
+.divType01 {
+	FLOAT: left
+}
+.divType01 .wrapper {
+	BORDER-BOTTOM: #666 1px solid; BORDER-LEFT: #666 1px solid; PADDING-BOTTOM: 2px; OVERFLOW-Y: auto; PADDING-LEFT: 2px; WIDTH: 243px; PADDING-RIGHT: 2px; BACKGROUND: #ccc; HEIGHT: 100px; BORDER-TOP: #666 1px solid; BORDER-RIGHT: #666 1px solid; PADDING-TOP: 2px
+}
+.divType01 .wrapper UL {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: #fff; PADDING-TOP: 5px
+}
+.btnType01 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 204px; PADDING-RIGHT: 0px; HEIGHT: 29px; MARGIN-LEFT: 5px; CURSOR: pointer; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.btnType01 .bkgC {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 4px; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BACKGROUND: url(http://images.vietnamworks.com/btn_c_emp.gif); FLOAT: left; HEIGHT: 29px; COLOR: #fff; BORDER-LEFT-STYLE: none; FONT-WEIGHT: bold
+}
+.btnType01 .btnLeft {
+	WIDTH: 9px; BACKGROUND: url(http://images.vietnamworks.com/btn_l_emp.gif); FLOAT: left; HEIGHT: 29px
+}
+.btnType01 .btnRight {
+	WIDTH: 9px; BACKGROUND: url(http://images.vietnamworks.com/btn_r_emp.gif); FLOAT: left; HEIGHT: 29px
+}
+.tip_anchor1 {
+	FLOAT: left; MARGIN-LEFT: 2px !important; CURSOR: help
+}
+.tip_anchor:hover {
+	BACKGROUND: url(http://images.vietnamworks.com/icon_q_over.gif)
+}
+.error_form {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 205px; PADDING-RIGHT: 0px; COLOR: #ff0000; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.tit_areasearch {
+	PADDING-LEFT: 5px; MARGIN-BOTTOM: 10px; BACKGROUND: url(http://images.vietnamworks.com/dot_line_cr.gif) repeat-x 50% top; COLOR: #ff9900; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.inputType02 {
+	BORDER-BOTTOM: #336666 1px solid; BORDER-LEFT: #336666 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 3px; WIDTH: 318px; PADDING-RIGHT: 3px; MARGIN-BOTTOM: 5px; MARGIN-LEFT: 5px; BORDER-TOP: #336666 1px solid; MARGIN-RIGHT: 10px !important; BORDER-RIGHT: #336666 1px solid; PADDING-TOP: 2px
+}
+.comboType02_industry {
+	BORDER-BOTTOM: #336666 1px solid; BORDER-LEFT: #336666 1px solid; WIDTH: 250px; MARGIN-LEFT: 5px; BORDER-TOP: #336666 1px solid; BORDER-RIGHT: #336666 1px solid
+}
+.comboType02 {
+	BORDER-BOTTOM: #336666 1px solid; BORDER-LEFT: #336666 1px solid; WIDTH: 150px; MARGIN-LEFT: 5px; BORDER-TOP: #336666 1px solid; BORDER-RIGHT: #336666 1px solid
+}
+.quick_list {
+	PADDING-BOTTOM: 10px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #ff9900; PADDING-TOP: 0px
+}
+.quick_list LI {
+	LINE-HEIGHT: 16pt; PADDING-LEFT: 20px
+}
+.quick_list LI A {
+	COLOR: #555
+}
+.quick_list LI A:hover {
+	COLOR: #ff9900
+}
+.box_pre {
+	CLEAR: both; PADDING-TOP: 5px
+}
+.box_left {
+	TEXT-ALIGN: right; WIDTH: 150px; PADDING-RIGHT: 20px; FLOAT: left; COLOR: #333
+}
+.box_right {
+	WIDTH: 540px; FLOAT: left
+}
+.box_right LI {
+	LIST-STYLE-TYPE: disc
+}
+.comp_name {
+	TEXT-TRANSFORM: uppercase; FONT-WEIGHT: bold
+}
+.tit_inf {
+	MARGIN: 0px 0px 5px 170px; BACKGROUND: url(http://images.vietnamworks.com/dot_line_cr.gif) repeat-x 50% top; COLOR: #ff9900; CLEAR: both; FONT-WEIGHT: bold; PADDING-TOP: 15px
+}
+.space_search {
+	HEIGHT: 10px; CLEAR: both
+}
+.page_view {
+	TEXT-ALIGN: right; MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px
+}
+.txt_clicktolog {
+	FONT-SIZE: 11px; PADDING-TOP: 8px
+}
+.txt_clicktolog A {
+	COLOR: #00adef; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.txt_clicktolog A:hover {
+	COLOR: #ff9900; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.box_jobalert {
+	POSITION: relative; MARGIN-TOP: 30px; MARGIN-LEFT: 100px; _height: 1%; _margin: auto; _left: 100px
+}
+.box_picbg {
+	POSITION: absolute; WIDTH: 83px; BACKGROUND: url(http://images.vietnamworks.com/ja_bgform.jpg); HEIGHT: 96px; TOP: 0px; LEFT: 0px; _left: 0px
+}
+.boxtop {
+	WIDTH: 560px; BACKGROUND: url(http://images.vietnamworks.com/ja_topdot.gif) no-repeat right top; HEIGHT: 12px
+}
+.boxtop_ctleft {
+	WIDTH: 543px; BACKGROUND: url(http://images.vietnamworks.com/dot_boxformalert.gif) repeat-y left 50%; MARGIN-LEFT: 16px
+}
+.boxtop_ctright {
+	DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/dot_boxformalert.gif) repeat-y right 50%
+}
+.boxbot {
+	WIDTH: 560px; BACKGROUND: url(http://images.vietnamworks.com/ja_bottomdot.gif) no-repeat right top; HEIGHT: 10px
+}
+.boxthank_top {
+	BACKGROUND: url(http://images.vietnamworks.com/boxthanks_top.gif) repeat-x 50% top; HEIGHT: 9px
+}
+.boxthank_top .boxthank_topleft {
+	WIDTH: 10px; BACKGROUND: url(http://images.vietnamworks.com/boxthanks_tl.gif) no-repeat left top; FLOAT: left; HEIGHT: 9px
+}
+.boxthank_top .boxthank_topright {
+	WIDTH: 10px; BACKGROUND: url(http://images.vietnamworks.com/boxthanks_tr.gif) no-repeat right top; FLOAT: right; HEIGHT: 9px
+}
+.boxthank_bottom {
+	BACKGROUND: url(http://images.vietnamworks.com/boxthanks_bottom.gif) repeat-x 50% top; HEIGHT: 9px
+}
+.boxthank_bottom .boxthank_bottomleft {
+	WIDTH: 10px; BACKGROUND: url(http://images.vietnamworks.com/boxthanks_bl.gif) no-repeat left top; FLOAT: left; HEIGHT: 9px
+}
+.boxthank_bottom .boxthank_bottomright {
+	WIDTH: 10px; BACKGROUND: url(http://images.vietnamworks.com/boxthanks_br.gif) no-repeat right top; FLOAT: right; HEIGHT: 9px
+}
+.boxthank_ct1 {
+	BACKGROUND: url(http://images.vietnamworks.com/boxthanks_left1.gif) #f6f6f6 repeat-y left 50%
+}
+.boxthank_ct1 DIV {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/boxthanks_right1.gif) repeat-y right 50%; PADDING-TOP: 5px
+}
+.boxthank_ct2 {
+	BORDER-LEFT: #00adef 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-RIGHT: #00adef 1px solid; PADDING-TOP: 10px
+}
+.boxthank_ct1 A {
+	COLOR: #333; TEXT-DECORATION: underline
+}
+.boxthank_ct1 A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: underline
+}
+.list_detail {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.list_detail LI {
+	PADDING-LEFT: 20px; MARGIN-BOTTOM: 10px; BACKGROUND: url(http://images.vietnamworks.com/boxthanks_bullet.gif) no-repeat left top; HEIGHT: 11px; CLEAR: both
+}
+.list_detail LI .tit1 {
+	WIDTH: 80px; DISPLAY: block; FLOAT: left; FONT-WEIGHT: bold
+}
+.list_detail LI .tit2 {
+	DISPLAY: block; FLOAT: left
+}
+.list_job TD {
+	PADDING-BOTTOM: 7px; PADDING-LEFT: 5px; PADDING-RIGHT: 2px; PADDING-TOP: 5px
+}
+.list_job INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.list_topjob {
+	PADDING-LEFT: 1px; BACKGROUND: url(http://images.vietnamworks.com/dotted_topjob.gif) repeat-y left 50%
+}
+.list_topjob .topjobdot_r {
+	PADDING-RIGHT: 1px; BACKGROUND: url(http://images.vietnamworks.com/dotted_topjob.gif) repeat-y right 50%
+}
+.list_topjob .topjobdot_bottom {
+	PADDING-BOTTOM: 1px; BACKGROUND: url(http://images.vietnamworks.com/dotted_topjob_bot.gif) repeat-x 50% bottom
+}
+.list_job .title_list {
+	BACKGROUND: #999999; COLOR: #ffffff; FONT-SIZE: 10px; FONT-WEIGHT: bold
+}
+.list_job .top_level_list {
+	TEXT-ALIGN: right; PADDING-RIGHT: 10px; BACKGROUND: #d4eefd; COLOR: #00adef; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.list_job .row1_list {
+	BACKGROUND: url(http://images.vietnamworks.com/dot_line_tb.gif) #ffffff repeat-x 50% bottom
+}
+.list_job .row2_list {
+	BACKGROUND: url(http://images.vietnamworks.com/dot_line_tb.gif) #f6f6f6 repeat-x 50% bottom
+}
+.list_job .row1_list_top {
+	BACKGROUND: url(http://images.vietnamworks.com/dot_line_tb.gif) #e4f5ff repeat-x 50% bottom
+}
+.list_job .row2_list_top {
+	BACKGROUND: url(http://images.vietnamworks.com/dot_line_tb.gif) #dbecf6 repeat-x 50% bottom
+}
+.list_job .jobtitle {
+	WIDTH: 450px; PADDING-RIGHT: 10px; FLOAT: left
+}
+.list_job .joblocation {
+	WIDTH: 100px; FLOAT: left
+}
+.list_job .jobdate {
+	WIDTH: 120px; FLOAT: right
+}
+.list_job .iconnew {
+	COLOR: #ff0000; FONT-SIZE: 8px; FONT-WEIGHT: bold
+}
+.list_job .jobdes {
+	WIDTH: 560px; FLOAT: left; PADDING-TOP: 10px
+}
+.list_job .jobdes UL {
+	MARGIN: 0px; PADDING-LEFT: 15px
+}
+.list_job .jobdes LI {
+	LIST-STYLE-TYPE: disc
+}
+.list_job .jobsal {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: both; PADDING-TOP: 10px
+}
+.joblogo {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.list_job_title {
+	FONT-SIZE: 18px; FONT-WEIGHT: bold
+}
+.list_job_title SPAN {
+	COLOR: #f90
+}
+UL.companyleftcol {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(http://images.vietnamworks.com/dotlineleft.gif) #e5f7fd repeat-x 50% bottom; HEIGHT: 1%; PADDING-TOP: 0px
+}
+UL.companyleftcol LI {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: url(http://images.vietnamworks.com/dotlineleft.gif) #e5f7fd repeat-x 50% top; PADDING-TOP: 10px
+}
+UL.companyleftcol LI.logoleft {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #fff; PADDING-TOP: 10px
+}
+UL.companyleftcol LI.comprofile {
+	BACKGROUND: url(http://images.vietnamworks.com/dotlineleft.gif) #cceffc repeat-x 50% top
+}
+UL.companyleftcol LI.comprofile #companyprofile {
+	TEXT-ALIGN: justify
+}
+#companyprofile_full {
+	TEXT-ALIGN: justify
+}
+.titleleft01 {
+	PADDING-LEFT: 20px; BACKGROUND: url(http://images.vietnamworks.com/bulletleft01.gif) no-repeat 0px 0px; COLOR: #00adef; FONT-WEIGHT: bold
+}
+.titleleft02 {
+	PADDING-LEFT: 20px; MARGIN-BOTTOM: 10px; BACKGROUND: url(http://images.vietnamworks.com/bulletleft02.gif) no-repeat 0px 0px; FONT-WEIGHT: bold
+}
+.titleleft02 A {
+	COLOR: #f90
+}
+.titleleft03 {
+	PADDING-LEFT: 20px; BACKGROUND: url(http://images.vietnamworks.com/bulletleft03.gif) no-repeat 0px 0px; COLOR: #00adef; FONT-WEIGHT: bold
+}
+.titleleft03 SPAN {
+	COLOR: #555
+}
+.titleleft04 {
+	PADDING-LEFT: 20px; BACKGROUND: url(http://images.vietnamworks.com/bulletleft04.gif) no-repeat 2px 2px; FONT-WEIGHT: bold
+}
+.titleleft04 A {
+	COLOR: #f90
+}
+.titleType01 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 15px
+}
+.listType10 {
+	PADDING-BOTTOM: 5px; LIST-STYLE-TYPE: none; MARGIN: 0px 0px 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/blue_dot_line_3.gif) repeat-x 50% bottom; HEIGHT: 20px; PADDING-TOP: 0px; _height: 1%
+}
+.listType10 LI {
+	WIDTH: auto; FLOAT: left
+}
+.listTypeFloat {
+	PADDING-BOTTOM: 5px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; HEIGHT: 1%; PADDING-TOP: 0px
+}
+.listTypeFloat LI {
+	FLOAT: left
+}
+.listType11 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 3px
+}
+.listType11 DT {
+	PADDING-RIGHT: 10px; DISPLAY: inline; FONT-WEIGHT: bold
+}
+.listType11 DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-TOP: 0px
+}
+.listType11 LI {
+	DISPLAY: inline
+}
+.display {
+	TEXT-ALIGN: right; MARGIN-BOTTOM: 10px
+}
+.checked_jobs {
+	MARGIN: 5px 0px
+}
+.navigationLeft {
+	WIDTH: 250px; FLOAT: left
+}
+.navigationRight {
+	TEXT-ALIGN: right; WIDTH: 340px; FLOAT: right
+}
+.btnType04 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; WIDTH: 145px; PADDING-RIGHT: 5px; FONT-SIZE: 11px; CURSOR: pointer; PADDING-TOP: 0px
+}
+.pop_category {
+	BORDER-BOTTOM: #e1e1e2 1px solid; BORDER-LEFT: #e1e1e2 1px solid; BACKGROUND: #f4f4f4; BORDER-TOP: #e1e1e2 1px solid; BORDER-RIGHT: #e1e1e2 1px solid
+}
+.pop_category .pop_tit {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; HEIGHT: 10px; PADDING-TOP: 5px
+}
+.pop_category .pop_categories {
+	FLOAT: left; FONT-SIZE: 12px; FONT-WEIGHT: bold !important
+}
+.pop_category .pop_close {
+	FLOAT: right
+}
+.pop_category .pop_content {
+	PADDING-BOTTOM: 0px; OVERFLOW-Y: auto; LIST-STYLE-TYPE: none; MARGIN: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 350px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.pop_category .pop_content LI {
+	MARGIN-BOTTOM: 3px
+}
+.pop_category .pop_content LI A {
+	COLOR: #555; TEXT-DECORATION: underline
+}
+.pop_category .pop_content LI A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: underline
+}
+.pop_category .pop_content .orange {
+	COLOR: #ff9900
+}
+.saved_job {
+	FONT-SIZE: 10px; FONT-WEIGHT: normal
+}
+.wrap_print {
+	MARGIN: auto; WIDTH: 600px
+}
+.logo_vnw {
+	TEXT-ALIGN: right; MARGIN-BOTTOM: 10px
+}
+.img_tile {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px
+}
+.box_pre_print {
+	CLEAR: both; PADDING-TOP: 5px
+}
+.boxleft_print {
+	TEXT-ALIGN: right; WIDTH: 150px; PADDING-RIGHT: 20px; FLOAT: left; COLOR: #333; FONT-WEIGHT: bold
+}
+.boxright_print {
+	TEXT-ALIGN: justify; WIDTH: 420px; FLOAT: left
+}
+.compname_print {
+	TEXT-TRANSFORM: uppercase; FONT-WEIGHT: bold
+}
+.titinf_print {
+	MARGIN: 0px 0px 5px 170px; BACKGROUND: url(http://images.vietnamworks.com/dot_line_cr.gif) repeat-x 50% top; COLOR: #ff9900; CLEAR: both; FONT-WEIGHT: bold; PADDING-TOP: 15px
+}
+.space_search {
+	HEIGHT: 10px; CLEAR: both
+}
+.coursematch {
+	BORDER-BOTTOM: #8dc63f 1px solid; BORDER-LEFT: #8dc63f 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 200px; PADDING-RIGHT: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #555; FONT-SIZE: 11px; BORDER-TOP: #8dc63f 1px solid; BORDER-RIGHT: #8dc63f 1px solid; PADDING-TOP: 55px
+}
+.coursematch_en {
+	BACKGROUND: url(http://images.vietnamworks.com/coursematch_bgbox_en.gif) #f6f6f6 no-repeat 50% top
+}
+.coursematch_vn {
+	BACKGROUND: url(http://images.vietnamworks.com/coursematch_bgbox.gif) #f6f6f6 no-repeat 50% top
+}
+.coursematch .courseblock {
+	PADDING-BOTTOM: 10px; MARGIN-BOTTOM: 15px; BACKGROUND: url(http://images.vietnamworks.com/coursematch_dashedline.gif) repeat-x 50% bottom
+}
+.coursematch A {
+	DISPLAY: block; COLOR: #8dc63f; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.coursematch A:hover {
+	COLOR: #f90; TEXT-DECORATION: underline
+}
+.coursematch .coursemore {
+	COLOR: #8dc63f; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.coursematch .coursemore:hover {
+	COLOR: #f90; TEXT-DECORATION: underline
+}
+.jobsearch_banner {
+	WIDTH: auto; FLOAT: right; HEIGHT: 110px; MARGIN-LEFT: 10px
+}
+.jobsearch_banner_n {
+	PADDING-BOTTOM: 10px; WIDTH: 220px
+}
+.white_content UL SPAN {
+	PADDING-LEFT: 10px; COLOR: #0099ff; FONT-SIZE: 12px
+}
+.jobsearch_byindustry {
+	WIDTH: 515px; BACKGROUND: url(http://images.vietnamworks.com/dot_line_col_cr.gif) repeat-y right 50%; FLOAT: left; HEIGHT: 630px
+}
+.jobsearch_byindustry_inner {
+	WIDTH: 257px; FLOAT: left
+}
+.jobsearch_byindustry .quick_list {
+	WIDTH: 257px
+}
+.jobsearch_byfunction {
+	WIDTH: 220px; BACKGROUND: url(http://images.vietnamworks.com/dot_line_col_cr.gif) repeat-y right 50%; FLOAT: left; HEIGHT: 630px
+}
+.jobsearch_bytype {
+	WIDTH: 220px; FLOAT: left; HEIGHT: 630px
+}
+.jobsearch_bykeyword {
+	WIDTH: 450px; FLOAT: left; HEIGHT: 110px
+}
+.jobsearch_byday {
+	WIDTH: 270px; FLOAT: left; HEIGHT: 110px
+}

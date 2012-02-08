@@ -1,0 +1,42 @@
+.splash_wrap {
+	WIDTH: 713px
+}
+.splash_topcorner {
+	BACKGROUND: url(http://images.vietnamworks.com/splash_topbg.gif) no-repeat 50% bottom; HEIGHT: 4px
+}
+.splash_topbg {
+	BORDER-LEFT: #969696 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BACKGROUND: url(http://images.vietnamworks.com/splash_topbg1.gif) repeat-x; HEIGHT: 43px; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: bold; BORDER-RIGHT: #969696 1px solid; PADDING-TOP: 15px
+}
+.splash_topbg A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.splash_topbg A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.splash_topbg IMG {
+	FLOAT: left; VERTICAL-ALIGN: middle
+}
+.splash_content {
+	BORDER-LEFT: #969696 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 20px; PADDING-RIGHT: 25px; BACKGROUND: url(http://images.vietnamworks.com/splash_bottombg.gif) #fff repeat-x 50% bottom; BORDER-RIGHT: #969696 1px solid; PADDING-TOP: 10px
+}
+.splash_content_bg {
+	BACKGROUND: url(http://images.vietnamworks.com/splash_newlayoupic.gif) no-repeat 365px 0px; HEIGHT: 1%
+}
+.splash_content_bg_vn {
+	PADDING-BOTTOM: 27px; BACKGROUND: url(http://images.vietnamworks.com/splash_newlayoupic.gif) no-repeat 385px 0px; HEIGHT: 1%
+}
+.splash_content P {
+	PADDING-BOTTOM: 9px; MARGIN: 0px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; DISPLAY: block; CLEAR: both; PADDING-TOP: 0px
+}
+.splash_content IMG {
+	MARGIN: -7px 0px 0px 10px
+}
+.splash_bigtitle {
+	TEXT-TRANSFORM: uppercase; MARGIN: 10px 0px; COLOR: #f90; FONT-SIZE: 17px; FONT-WEIGHT: bold
+}
+.splash_title {
+	MARGIN: 5px 0px 0px 10px; PADDING-LEFT: 20px; BACKGROUND: url(http://images.vietnamworks.com/splash_arrow.gif) no-repeat 0px 2px; FLOAT: left; FONT-WEIGHT: bold; _margin: 5px 0 0 5px
+}
+.splash_bottomcorner {
+	BACKGROUND: url(http://images.vietnamworks.com/splash_bottom.gif) no-repeat 50% top; HEIGHT: 4px
+}

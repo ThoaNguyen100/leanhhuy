@@ -1,0 +1,621 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #666; FONT-SIZE: 11px; PADDING-TOP: 0px
+}
+* {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium
+}
+A {
+	COLOR: #666
+}
+A:hover {
+	COLOR: #f90
+}
+IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+INPUT {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 11px
+}
+SELECT {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 11px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.text_yellow {
+	COLOR: #ff0
+}
+.clear {
+	CLEAR: both
+}
+.floatLeft {
+	FLOAT: left
+}
+.floatRight {
+	FLOAT: right
+}
+.noborder {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.nobackground {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.nomargin {
+	MARGIN: 0px
+}
+.nopadding {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 0px !important
+}
+.vnw_wrap {
+	MARGIN: auto; WIDTH: 950px
+}
+.vnw_wrapmenu {
+	MARGIN: auto; WIDTH: 980px
+}
+.vnw_viewall {
+	PADDING-LEFT: 10px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_bulletarrow.gif) no-repeat 0px -32px; COLOR: #333; FONT-WEIGHT: bold
+}
+.vnw_viewall:hover {
+	BACKGROUND-POSITION: 0px 4px
+}
+.vnw_btn1 {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; BACKGROUND: url(http://images.vietnamworks.com/vnw_btn1.gif) no-repeat; HEIGHT: 21px; COLOR: #fff; FONT-SIZE: 11px; BORDER-LEFT-STYLE: none; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.vnw_paddingtop {
+	PADDING-TOP: 10px
+}
+.vnw_title2 {
+	MARGIN: 0px; COLOR: #f90; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.vnw_title3 {
+	TEXT-TRANSFORM: uppercase; MARGIN: 0px; COLOR: #f90; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.vnw_title4 {
+	COLOR: #0cf; FONT-WEIGHT: bold
+}
+#vnw_header {
+	MIN-WIDTH: 980px; BACKGROUND: url(http://images.vietnamworks.com/vnw_topheadbg.gif) repeat-x; HEIGHT: 130px; COLOR: #fff
+}
+#vnw_header A {
+	COLOR: #fff
+}
+#vnw_header A:hover {
+	COLOR: #f90
+}
+.vnw_wrap_header {
+	POSITION: relative; MARGIN: auto; WIDTH: 980px
+}
+.vnw_star {
+	POSITION: absolute; TOP: 5px; LEFT: 0px
+}
+.vnw_tophead {
+	FLOAT: left; PADDING-TOP: 5px
+}
+.vnw_spacemenu {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.vnw_btnlang {
+	POSITION: absolute; TEXT-ALIGN: center; MARGIN-TOP: 3px; WIDTH: 79px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_bntlang_bg.gif) no-repeat; FLOAT: right; HEIGHT: 19px; COLOR: #fff; RIGHT: 135px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+.vnw_btnlang_vn {
+	POSITION: absolute; TEXT-ALIGN: center; MARGIN-TOP: 3px; WIDTH: 79px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_bntlang_bg.gif) no-repeat; FLOAT: right; HEIGHT: 19px; COLOR: #fff; RIGHT: 135px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+.vnw_btnlang_vn {
+	RIGHT: 170px
+}
+.vnw_btnlang:hover {
+	COLOR: #fff !important; TEXT-DECORATION: none
+}
+.vnw_btnlang_vn:hover {
+	COLOR: #fff !important; TEXT-DECORATION: none
+}
+.vnw_foremp {
+	POSITION: absolute; TEXT-ALIGN: right; HEIGHT: 52px; TOP: 0px; RIGHT: 0px
+}
+.vnw_forempct {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 10px; LINE-HEIGHT: 18px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(http://images.vietnamworks.com/vnw_bgforemp.gif) repeat-x 0px 100%; FLOAT: left; HEIGHT: 37px; PADDING-TOP: 5px
+}
+.vnw_forempct A {
+	COLOR: #ff0 !important; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.vnw_forempct A:hover {
+	COLOR: #ff0; TEXT-DECORATION: underline
+}
+.vnw_forempleft {
+	WIDTH: 9px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_bgforemp.gif) no-repeat 0px 0px; FLOAT: left; HEIGHT: 52px
+}
+.vnw_forempright {
+	WIDTH: 9px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_bgforemp.gif) no-repeat 100% 0px; FLOAT: left; HEIGHT: 52px
+}
+.vnw_toplogobanner {
+	PADDING-LEFT: 15px; WIDTH: 790px; PADDING-TOP: 15px
+}
+.vnw_topbanner {
+	MARGIN-TOP: 10px; WIDTH: 550px; HEIGHT: 71px
+}
+.vnw_topbanner TABLE {
+	WIDTH: 550px
+}
+.vnw_topbanner TABLE TD {
+	TEXT-ALIGN: right
+}
+#vnw_nav {
+	MIN-WIDTH: 980px; BACKGROUND: #7fdcf8; HEIGHT: 30px
+}
+UL.vnw_mainnav {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 5px
+}
+UL.vnw_mainnav LI {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+UL.vnw_mainnav LI A {
+	PADDING-BOTTOM: 4px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 4px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; HEIGHT: 15px; COLOR: #333; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+UL.vnw_mainnav LI A.vsredirect {
+	PADDING-BOTTOM: 4px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 4px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; HEIGHT: 15px; COLOR: #333; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+UL.vnw_mainnav LI A SPAN {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 7px; PADDING-RIGHT: 11px; DISPLAY: block; PADDING-TOP: 3px
+}
+UL.vnw_mainnav LI A.vsredirect SPAN {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 7px; PADDING-RIGHT: 11px; DISPLAY: block; PADDING-TOP: 3px
+}
+UL.vnw_mainnav LI A.vsredirect:hover {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_vs_nav_s.gif) no-repeat 0px -19px; COLOR: #fff
+}
+UL.vnw_mainnav LI A.vsredirect:hover SPAN {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_vs_nav_s.gif) no-repeat 100% -19px
+}
+UL.vnw_mainnav LI A:hover {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_mainnav_over.gif) no-repeat 0px 0px; COLOR: #0cf; TEXT-DECORATION: none
+}
+UL.vnw_mainnav LI A:hover SPAN {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_mainnav_over.gif) no-repeat 100% 0px
+}
+UL.vnw_mainnav LI A.menuactive {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_mainnav_over.gif) no-repeat 0px -24px
+}
+UL.vnw_mainnav LI A.menuactive SPAN {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_mainnav_over.gif) no-repeat 100% -24px
+}
+UL.vnw_mainnav LI A.menuactive:hover {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_mainnav_over.gif) no-repeat 0px 0px; COLOR: #0cf; TEXT-DECORATION: none
+}
+UL.vnw_mainnav LI A.menuactive:hover SPAN {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_mainnav_over.gif) no-repeat 100% 0px
+}
+.vnw_login {
+	FLOAT: right; PADDING-TOP: 8px
+}
+#vnw_nav_sub {
+	MIN-WIDTH: 980px; BACKGROUND: url(http://images.vietnamworks.com/vnw_subnavbg.gif) repeat-x 0px 0px; HEIGHT: 30px
+}
+UL.vnw_subnav {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 6px
+}
+UL.vnw_subnav LI {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+UL.vnw_subnav LI A {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; HEIGHT: 15px; COLOR: #fff; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+UL.vnw_subnav LI A SPAN {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 7px; PADDING-RIGHT: 11px; DISPLAY: block; PADDING-TOP: 3px
+}
+UL.vnw_subnav LI A:hover {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_mainnav_over.gif) no-repeat 0px -48px; COLOR: #fff
+}
+UL.vnw_subnav LI A:hover SPAN {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_mainnav_over.gif) no-repeat 100% -48px
+}
+UL.vnw_subnav LI A.subactive {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_mainnav_over.gif) no-repeat 0px -48px; COLOR: #fff
+}
+UL.vnw_subnav LI A.subactive SPAN {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_mainnav_over.gif) no-repeat 100% -48px
+}
+#vnw_mainnav {
+	MIN-WIDTH: 980px; BACKGROUND: url(http://images.vietnamworks.com/vnw_mainnavbg.gif) repeat-x; HEIGHT: 30px
+}
+UL.vnw_navigation {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 6px
+}
+UL.vnw_navigation LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FLOAT: left; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 0px
+}
+UL.vnw_navigation LI A {
+	PADDING-BOTTOM: 3px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; FLOAT: left; COLOR: #333; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 3px
+}
+UL.vnw_navigation LI A:hover {
+	BACKGROUND: #0cf; COLOR: #fff
+}
+UL.vnw_navigation LI A.menuactive {
+	BACKGROUND: #0cf; COLOR: #fff
+}
+.vnw_login {
+	FLOAT: right; PADDING-TOP: 8px
+}
+#vnw_subnav {
+	MIN-WIDTH: 980px; BACKGROUND: url(http://images.vietnamworks.com/vnw_mainnavbg.gif) repeat-x 0px -30px; HEIGHT: 30px
+}
+UL.vnw_subnavigation {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 6px
+}
+UL.vnw_subnavigation LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FLOAT: left; COLOR: #fff; FONT-WEIGHT: bold; PADDING-TOP: 3px
+}
+UL.vnw_subnavigation LI A {
+	DISPLAY: block; FLOAT: left; COLOR: #fff; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+UL.vnw_subnavigation LI A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+#vnw_contentbg {
+	MIN-WIDTH: 980px; BACKGROUND: url(http://images.vietnamworks.com/vnw_contentbg.gif) repeat-x; PADDING-TOP: 10px
+}
+#vnw_leftcol {
+	WIDTH: 220px; FLOAT: left
+}
+#vnw_rightcol {
+	WIDTH: 720px; FLOAT: right; HEIGHT: 1%
+}
+#vnw_rightcol_left {
+	WIDTH: 530px; FLOAT: left
+}
+#vnw_rightcol_right {
+	WIDTH: 180px; FLOAT: right
+}
+.vnw_conrertop {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_boxbg.gif) repeat-x 0px -122px; HEIGHT: 6px
+}
+.vnw_conrer_top_left {
+	WIDTH: 6px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_boxbg.gif) no-repeat -24px -42px; FLOAT: left; HEIGHT: 6px
+}
+.vnw_conrer_top_right {
+	WIDTH: 6px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_boxbg.gif) no-repeat -18px -42px; FLOAT: right; HEIGHT: 6px
+}
+.vnw_conrertop_t {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_boxbg.gif) repeat-x 0px -48px; HEIGHT: 6px
+}
+.vnw_conrertopt_left {
+	WIDTH: 6px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_boxbg.gif) no-repeat 0px -36px; FLOAT: left; HEIGHT: 6px
+}
+.vnw_conrertopt_right {
+	WIDTH: 6px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_boxbg.gif) no-repeat -12px -36px; FLOAT: right; HEIGHT: 6px
+}
+H2.vnw_boxtitle {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 5px; LINE-HEIGHT: 20px; MARGIN: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: url(http://images.vietnamworks.com/vnw_boxbg.gif) #00bcf3 repeat-x 0px -55px; COLOR: #fff; FONT-SIZE: 16px; BORDER-TOP: medium none; FONT-WEIGHT: bold; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 5px
+}
+.vnw_conrer_ct {
+	BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: url(http://images.vietnamworks.com/vnw_boxbg_ct.gif) #fff repeat-x 0px 100%; HEIGHT: 1%; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 10px
+}
+.vnw_conrer_bot {
+	MARGIN-BOTTOM: 10px; BACKGROUND: url(http://images.vietnamworks.com/vnw_boxbg.gif) repeat-x 0px -117px; HEIGHT: 6px
+}
+.vnw_conrer_bot_left {
+	WIDTH: 6px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_boxbg.gif) repeat-x -24px -36px; FLOAT: left; HEIGHT: 6px
+}
+.vnw_conrer_bot_right {
+	WIDTH: 6px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_boxbg.gif) repeat-x -18px -36px; FLOAT: right; HEIGHT: 6px
+}
+.vnw_conrer_panel {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_corner_panel_bg.gif) #fff repeat-x 0px 100%; HEIGHT: 36px
+}
+.vnw_botbannel {
+	MARGIN-BOTTOM: 10px; BACKGROUND: #dfdfdf; HEIGHT: 6px
+}
+.vnw_botbannel_left {
+	WIDTH: 6px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_corner_panel.gif) no-repeat -6px 0px; FLOAT: left; HEIGHT: 6px
+}
+.vnw_botbannel_right {
+	WIDTH: 6px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_corner_panel.gif) no-repeat 0px 0px; FLOAT: right; HEIGHT: 6px
+}
+.vnw_edulink {
+	LINE-HEIGHT: 18px; PADDING-LEFT: 15px; FLOAT: left
+}
+.vnw_edulink IMG {
+	MARGIN: 7px 7px 0px 0px; VERTICAL-ALIGN: middle
+}
+.vnw_edulink A {
+	TEXT-DECORATION: none
+}
+.vnw_edulink A:hover {
+	COLOR: #333 !important; TEXT-DECORATION: underline
+}
+.vnw_formquicksearch {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 50px; FLOAT: right; PADDING-TOP: 10px
+}
+.vnw_bgpanel {
+	POSITION: relative; WIDTH: 950px; HEIGHT: 209px; COLOR: #333
+}
+.vnw_bgpanel_1_en {
+	WIDTH: 950px; HEIGHT: 209px
+}
+.vnw_bgpanel_2_en {
+	WIDTH: 950px; HEIGHT: 209px
+}
+.vnw_bgpanel_3_en {
+	WIDTH: 950px; HEIGHT: 209px
+}
+.vnw_bgpanel_1_vn {
+	WIDTH: 950px; HEIGHT: 209px
+}
+.vnw_bgpanel_2_vn {
+	WIDTH: 950px; HEIGHT: 209px
+}
+.vnw_bgpanel_3_vn {
+	WIDTH: 950px; HEIGHT: 209px
+}
+.vnw_bgpanel_1_en {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_panel1.jpg) no-repeat
+}
+.vnw_bgpanel_2_en {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_panel2.jpg) no-repeat
+}
+.vnw_bgpanel_3_en {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_panel3.jpg) no-repeat
+}
+.vnw_bgpanel_4_en {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_panel4.jpg) no-repeat
+}
+.vnw_bgpanel_1_vn {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_panel1_vn.jpg) no-repeat
+}
+.vnw_bgpanel_2_vn {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_panel2_vn.jpg) no-repeat
+}
+.vnw_bgpanel_3_vn {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_panel3_vn.jpg) no-repeat
+}
+.vnw_bgpanel_4_vn {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_panel4_vn.jpg) no-repeat
+}
+.vnw_clickablespace {
+	POSITION: absolute
+}
+.vnw_tabctPanel {
+	Z-INDEX: 0; POSITION: absolute; PADDING-BOTTOM: 10px; PADDING-LEFT: 20px; WIDTH: 492px; PADDING-RIGHT: 20px; BACKGROUND: url(http://images.vietnamworks.com/vnw_panel_bg.gif) no-repeat; HEIGHT: 146px; TOP: 30px; PADDING-TOP: 10px; LEFT: 369px
+}
+UL.vnw_paneltab {
+	Z-INDEX: 1; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; TOP: 8px; PADDING-TOP: 0px; LEFT: 390px
+}
+UL.vnw_paneltab LI {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+UL.vnw_paneltab LI A {
+	TEXT-ALIGN: center; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 20px; BACKGROUND: url(http://images.vietnamworks.com/vnw_tab_panel.gif) no-repeat 0px -69px; FLOAT: left; COLOR: #fff; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+UL.vnw_paneltab LI A:hover {
+	COLOR: #fff
+}
+UL.vnw_paneltab LI A SPAN {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 20px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_tab_panel.gif) no-repeat 100% -23px; CURSOR: pointer; PADDING-TOP: 6px
+}
+UL.vnw_paneltab LI A.tabactive {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_tab_panel.gif) no-repeat 0px -46px; COLOR: #0cf
+}
+UL.vnw_paneltab LI A.tabactive:hover {
+	COLOR: #0cf
+}
+UL.vnw_paneltab LI A.tabactive SPAN {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_tab_panel.gif) no-repeat 100% 0px
+}
+UL.vnw_catgorysearch {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-LEFT: 0px; WIDTH: 240px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+UL.vnw_catgorysearch LI {
+	PADDING-BOTTOM: 5px; COLOR: #6f6f6f
+}
+UL.vnw_catgorysearch LI A {
+	TEXT-DECORATION: none
+}
+UL.vnw_catgorysearch LI A.searchmore {
+	COLOR: #f90; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+UL.vnw_catgorysearch LI A.searchmore:hover {
+	TEXT-DECORATION: underline
+}
+.vnw_searchother {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_dotline.gif) repeat-x 0px 0px; CLEAR: both; PADDING-TOP: 10px
+}
+.vnw_searchother A {
+	PADDING-RIGHT: 30px
+}
+.vnw_listjobtool {
+	PADDING-BOTTOM: 0px; MARGIN: 20px 0px 0px 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.vnw_listjobtool LI {
+	MARGIN-BOTTOM: 15px
+}
+.vnw_listjobtool A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; BACKGROUND: url(http://images.vietnamworks.com/vnw_bulletarrow3.gif) no-repeat 0px 0px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.vnw_listjobtool A:hover {
+	BACKGROUND-POSITION: 0px -54px; COLOR: #f90; TEXT-DECORATION: underline
+}
+.vnw_gettingahead {
+	MARGIN-TOP: 10px
+}
+.vnw_liststar {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 90px; PADDING-LEFT: 0px; WIDTH: 200px; PADDING-RIGHT: 0px; PADDING-TOP: 0px; _margin-left: 45px
+}
+.vnw_liststar LI {
+	MARGIN-BOTTOM: 5px
+}
+.vnw_liststar LI A {
+	FONT-STYLE: italic; PADDING-LEFT: 20px; BACKGROUND: url(http://images.vietnamworks.com/vnw_bulletarrow4.gif) no-repeat 0px -43px
+}
+.vnw_liststar LI A:hover {
+	BACKGROUND-POSITION: 0px 1px
+}
+.vnw_fe_ct {
+	PADDING-RIGHT: 0px
+}
+.vnw_fe {
+	MARGIN-BOTTOM: 10px
+}
+.vnw_fe TD {
+	PADDING-BOTTOM: 10px; PADDING-RIGHT: 5px
+}
+.vnw_fe A {
+	BORDER-BOTTOM: #ededed 2px solid; BORDER-LEFT: #ededed 2px solid; WIDTH: 88px; DISPLAY: block; HEIGHT: 43px; BORDER-TOP: #ededed 2px solid; BORDER-RIGHT: #ededed 2px solid
+}
+.vnw_fe A:hover {
+	BORDER-BOTTOM: #f90 2px solid; BORDER-LEFT: #f90 2px solid; BORDER-TOP: #f90 2px solid; BORDER-RIGHT: #f90 2px solid
+}
+.vnw_AffiliateAdv {
+	TEXT-ALIGN: center
+}
+.vnw_AffiliateAdv IMG {
+	MARGIN-BOTTOM: 10px
+}
+UL.vnw_topjobslist {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 240px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL.vnw_topjobslist LI {
+	PADDING-BOTTOM: 10px; MARGIN-BOTTOM: 10px; BACKGROUND: url(http://images.vietnamworks.com/vnw_dotline.gif) repeat-x 0px 100%
+}
+UL.vnw_topjobslist LI A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 12px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_bulletarrow2.gif) no-repeat 0px 2px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+UL.vnw_topjobslist LI A:hover {
+	BACKGROUND-POSITION: 0px -78px
+}
+UL.vnw_topjobslist LI SPAN {
+	PADDING-LEFT: 12px; DISPLAY: block
+}
+.vnw_topjobs_view {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_dotline.gif) repeat-x 0px 0px; PADDING-TOP: 10px
+}
+.vnw_bottom {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_linebottom.gif) repeat-x 0px 0px; HEIGHT: 1%
+}
+.vnw_bottom_bg {
+	PADDING-BOTTOM: 24px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(http://images.vietnamworks.com/vnw_boxbg_ct.gif) repeat-x 0px 100%; PADDING-TOP: 24px
+}
+.vnw_bottom_line {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_dotline_hoz.gif) repeat-y 490px 0px
+}
+.vnw_careeradvice {
+	TEXT-ALIGN: justify; WIDTH: 480px; PADDING-RIGHT: 10px; FLOAT: left
+}
+.vnw_careeradvice IMG {
+	BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; MARGIN: 10px 10px 0px 0px; FLOAT: left; BORDER-TOP: #ccc 2px solid; BORDER-RIGHT: #ccc 2px solid
+}
+.vnw_formpoll {
+	
+}
+.vnw_formpoll SPAN {
+	PADDING-BOTTOM: 5px; DISPLAY: block
+}
+.vnw_poll {
+	WIDTH: 450px; FLOAT: right
+}
+.vnw_checkpoll {
+	VERTICAL-ALIGN: middle
+}
+.vnw_labelpoll {
+	DISPLAY: inline; VERTICAL-ALIGN: middle; PADDING-TOP: 3px
+}
+.vnw_footer1 {
+	BORDER-BOTTOM: #ccc 1px solid; MIN-WIDTH: 980px; TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(http://images.vietnamworks.com/vnw_bgfooter.gif); COLOR: #fff; BORDER-TOP: #ccc 1px solid; PADDING-TOP: 10px
+}
+.vnw_footer2 {
+	MIN-WIDTH: 980px; TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #939598; COLOR: #fff; PADDING-TOP: 10px
+}
+.vnw_footer2 A {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.vnw_footer2 A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: underline
+}
+#vnw_featureLogos {
+	
+}
+#vnw_featureLogos .salesLogo {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 12px; DISPLAY: block; FLOAT: left; PADDING-TOP: 0px
+}
+#vnw_featureLogos .salesLogoLink {
+	BORDER-BOTTOM: #efefef 2px solid; BORDER-LEFT: #efefef 2px solid; WIDTH: 88px; DISPLAY: block; HEIGHT: 43px; BORDER-TOP: #efefef 2px solid; BORDER-RIGHT: #efefef 2px solid
+}
+#vnw_featureLogos .salesLogoLink:hover {
+	BORDER-BOTTOM: #f93 2px solid; BORDER-LEFT: #f93 2px solid; BORDER-TOP: #f93 2px solid; BORDER-RIGHT: #f93 2px solid
+}
+#vnw_featureLogos .salesLogoTitle {
+	WIDTH: 0px; DISPLAY: none; HEIGHT: 0px
+}
+#vnw_featureLogos .salesLogoDesc {
+	WIDTH: 0px; DISPLAY: none; HEIGHT: 0px
+}
+#vnw_vipLogo {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 8px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+#vnw_vipLogo .salesLogo {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; WIDTH: 165px; PADDING-RIGHT: 5px; FLOAT: left; HEIGHT: 113px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+#vnw_vipLogo .salesLogo .salesLogoImage {
+	BORDER-BOTTOM: #fff 2px solid; BORDER-LEFT: #fff 2px solid; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #fff 2px solid; BORDER-RIGHT: #fff 2px solid; PADDING-TOP: 0px
+}
+#vnw_vipLogo .salesLogo .salesLogoTitle {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; DISPLAY: block; COLOR: #0cf; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+#vnw_vipLogo .salesLogo .salesLogoDesc {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; DISPLAY: block; HEIGHT: 25px; COLOR: #333; FONT-SIZE: 10px; PADDING-TOP: 0px
+}
+#vnw_vipLogo .salesLogo .salesLogoLink {
+	WIDTH: 165px; DISPLAY: block; HEIGHT: 113px; TEXT-DECORATION: none
+}
+#vnw_vipLogo .salesLogo .salesLogoLink:hover {
+	BACKGROUND: url(http://images.vietnamworks.com/vnw_bkg_viplogo.gif) #f93 no-repeat
+}
+#vnw_vipLogo .salesLogo .salesLogoLink:hover .salesLogoImage {
+	BORDER-BOTTOM: #f93 2px solid; BORDER-LEFT: #f93 2px solid; BORDER-TOP: #f93 2px solid; BORDER-RIGHT: #f93 2px solid
+}
+#vnw_vipLogo .salesLogo .salesLogoLink:hover .salesLogoTitle {
+	COLOR: #fff
+}
+#vnw_vipLogo .salesLogo .salesLogoLink:hover .salesLogoDesc {
+	COLOR: #000
+}
+.vnw_tabctPanel_dj01 {
+	Z-INDEX: 0; POSITION: absolute; WIDTH: 532px; BACKGROUND: url(http://images.vietnamworks.com/vnw_panel_bg01.gif) no-repeat; HEIGHT: 162px; TOP: 30px; PADDING-TOP: 4px; LEFT: 369px
+}
+.vnw_tabctPanel_dj01Bg {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 377px; WIDTH: 155px; PADDING-RIGHT: 0px; BACKGROUND: url(http://images.vietnamworks.com/vnw_panel_dj01.jpg) no-repeat 0px 0px; HEIGHT: 57px; PADDING-TOP: 100px
+}
+.vnw_tabctPanel_dj02 {
+	Z-INDEX: 0; POSITION: absolute; WIDTH: 532px; BACKGROUND: url(http://images.vietnamworks.com/vnw_panel_bg02.gif) no-repeat; HEIGHT: 162px; TOP: 30px; PADDING-TOP: 4px; LEFT: 369px
+}
+.vnw_tabctPanel_dj02Bg {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 30px; WIDTH: 502px; PADDING-RIGHT: 0px; BACKGROUND: url(http://images.vietnamworks.com/vnw_panel_dj02.jpg) no-repeat 0px 0px; HEIGHT: 48px; PADDING-TOP: 110px
+}
+UL.vnw_paneltab LI .dj_iconNew {
+	POSITION: absolute; WIDTH: 25px; HEIGHT: 17px; TOP: -7px; RIGHT: 15px
+}
+* HTML .pngIE {
+	BEHAVIOR: url(css/pngbehavior.htc)
+}
+UL.vnw_paneltab LI A.djPromote {
+	Z-INDEX: 10; POSITION: absolute; TEXT-ALIGN: center; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 20px; WIDTH: 120px; BACKGROUND: url(http://images.vietnamworks.com/vnw_tab_panel2.gif) no-repeat 0px -93px; FLOAT: left; HEIGHT: 32px; COLOR: #fff; TOP: -8px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+UL.vnw_paneltab LI A.djPromote SPAN {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 20px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_tab_panel2.gif) no-repeat 100% -31px; CURSOR: pointer; PADDING-TOP: 14px
+}
+UL.vnw_paneltab LI A.djPromote:hover {
+	BACKGROUND-POSITION: 0px -62px; COLOR: #0cf
+}
+UL.vnw_paneltab LI A.djPromote:hover SPAN {
+	BACKGROUND-POSITION: 100% 0px
+}
+UL.vnw_paneltab LI A.djActive {
+	Z-INDEX: 10; POSITION: absolute; TEXT-ALIGN: center; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 20px; WIDTH: 120px; BACKGROUND: url(http://images.vietnamworks.com/vnw_tab_panel2.gif) no-repeat 0px -62px; FLOAT: left; HEIGHT: 32px; COLOR: #0cf; TOP: -8px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+UL.vnw_paneltab LI A.djActive SPAN {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 20px; DISPLAY: block; BACKGROUND: url(http://images.vietnamworks.com/vnw_tab_panel2.gif) no-repeat 100% 0px; CURSOR: pointer; PADDING-TOP: 14px
+}
